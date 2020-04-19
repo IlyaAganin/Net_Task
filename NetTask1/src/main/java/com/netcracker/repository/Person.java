@@ -188,25 +188,3 @@ public class Person implements IPerson	{
 
 	
 }
-
-//import java.util.Comparator;
-/* public static final Comparator<IPerson> comparatorid =
-(IPerson a, IPerson b) -> (a.getId() - b.getId());
-public static final Comparator<IPerson> comparatorname =
- (IPerson a, IPerson b) -> (a.getFirstName().compareTo(b.getFirstName()));
-public static final Comparator<IPerson> comparatorbirthday =
- (IPerson a, IPerson b) -> (comparer(a,b));
-
-public static  int comparer(IPerson a,IPerson b){
-java.time.LocalDate a1 = a.getBirthdate();
-java.time.LocalDate b1 = b.getBirthdate();
-int rezult;
-if (a1.isBefore(b1)) {
- rezult = 1;
-}
-if(a1.isAfter((b1))){
- rezult = -1;
-}
-else rezult = 0;
-return rezult;
-}*/
